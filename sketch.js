@@ -51,11 +51,11 @@ var createScene = function () {
     var b1 = createBox(0, -2, 2, 2, 2, 1);
 
     //wrap box in material colored with hex code
-    b1.material = fileMat('download.png', scene);
+    b1.material = fileMat('downloaded.jpg', scene);
     b1.rotation.z += Math.PI/3;
 
     var b2 = createBox(0, 2, -1.5, 2, 2, 1);
-    b2.material = fileMat('OIP2 (1).png', scene);
+    b2.material = fileMat('OI.jpg', scene);
     b2.rotation.z += Math.PI/3;
 
     return scene;
