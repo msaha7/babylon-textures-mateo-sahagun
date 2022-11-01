@@ -42,22 +42,21 @@ var createScene = function () {
     s1.material = fileMat('OIP1.jpg', scene);
     
     //create sphere
-    var s2 = createSphere(2, 2, 0.5, 2);
+    var s2 = createSphere(1, 1, 0.5, 3);
 
     //wrap sphere in material from local file
     s2.material = fileMat('111.jpg', scene);
     
     //create box with params x, y, z, width, height, ddepth
-    var b1 = createBox(2, -2, 2, 1, 1, 1);
+    var b1 = createBox(0, -2, 2, 2, 2, 1);
 
     //wrap box in material colored with hex code
-    b1.material = hexMat('#ff0000');
-    b1.rotation.z += Math.PI/4;
+    b1.material = fileMat('download.png', scene);
+    b1.rotation.z += Math.PI/3;
 
-    var b2 = createBox(0, -2, -1.5, 2, 2, 2);
-
-    //wrap box in material from local file
-    b2.material = fileMat('moon.jpg');
+    var b2 = createBox(0, 2, -1.5, 2, 2, 1);
+    b2.material = fileMat('OIP2 (1).png', scene);
+    b2.rotation.z += Math.PI/3;
 
     return scene;
 };
