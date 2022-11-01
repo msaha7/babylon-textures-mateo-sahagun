@@ -39,7 +39,7 @@ var createScene = function () {
     var s1 = createSphere(-1, 1, -1, 2);
 
     //wrap sphere in material from URL file
-    s1.material = fileMat('https://www.bing.com/images/search?view=detailV2&ccid=CkCfn4Cn&id=2684F2AB788A8107841EAA4BB3AC2269644B2A27&thid=OIP.CkCfn4Cn6brJhehPtwR4NAHaE7&mediaurl=https%3a%2f%2fmedia.istockphoto.com%2fphotos%2fcontrolling-picture-id476008196%3fk%3d6%26m%3d476008196%26s%3d170667a%26w%3d0%26h%3dBmqFY8vsp6liYkJswxfrArJmIeKmWM_b2oQWvGYFR8I%3d&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.0a409f9f80a7e9bac985e84fb7047834%3frik%3dJypLZGkirLNLqg%26pid%3dImgRaw%26r%3d0%26sres%3d1%26sresct%3d1%26srh%3d800%26srw%3d1201&exph=339&expw=509&q=controlling+pictures&simid=607997276047028538&FORM=IRPRST&ck=D1A4CC7C5515776547351EABF0A591F4&selectedIndex=1&ajaxhist=0&ajaxserp=0', scene);
+    s1.material = fileMat('https://media.istockphoto.com/photos/controlling-picture-id476008196?k=6&m=476008196&s=170667a&w=0&h=BmqFY8vsp6liYkJswxfrArJmIeKmWM_b2oQWvGYFR8I=', scene);
     
     //create sphere
     var s2 = createSphere(2, 2, 0.5, 2);
