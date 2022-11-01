@@ -57,7 +57,7 @@ var createScene = function () {
     var b2 = createBox(0, -2, -1.5, 2, 2, 2);
 
     //wrap box in material from local file
-    b2.material = fileMat('why.png');
+    b2.material = fileMat('moon.jpg');
 
     return scene;
 };
