@@ -39,13 +39,13 @@ var createScene = function () {
     var s1 = createSphere(-1, 1, -1, 2);
 
     //wrap sphere in material from URL file
-    s1.material = fileMat('https://media.istockphoto.com/photos/controlling-picture-id476008196?k=6&m=476008196&s=170667a&w=0&h=BmqFY8vsp6liYkJswxfrArJmIeKmWM_b2oQWvGYFR8I=', scene);
+    s1.material = fileMat('OIP1.jpg', scene);
     
     //create sphere
     var s2 = createSphere(2, 2, 0.5, 2);
 
     //wrap sphere in material from local file
-    s2.material = fileMat('moon.jpg', scene);
+    s2.material = fileMat('111.jpg', scene);
     
     //create box with params x, y, z, width, height, ddepth
     var b1 = createBox(2, -2, 2, 1, 1, 1);
