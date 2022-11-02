@@ -36,13 +36,13 @@ var createScene = function () {
 
 
     //create sphere w params (x, y, z, diameter)
-    var s1 = createSphere(-2, 3, -2, 2);
+    var s1 = createSphere(-2, 3, 0, 2);
 
     //wrap sphere in material from URL file
     s1.material = fileMat('OIP1.jpg', scene);
     
     //create sphere
-    var s2 = createSphere(2, 3, -2, 2);
+    var s2 = createSphere(4, 3, 0, 2);
 
     //wrap sphere in material from local file
     s2.material = fileMat('111.jpg', scene);
