@@ -36,19 +36,19 @@ var createScene = function () {
 
 
     //create sphere w params (x, y, z, diameter)
-    var s1 = createSphere(-2, 2, -2, 2);
+    var s1 = createSphere(-2, 3, -2, 2);
 
     //wrap sphere in material from URL file
     s1.material = fileMat('OIP1.jpg', scene);
     
     //create sphere
-    var s2 = createSphere(2, 2, -2, 2);
+    var s2 = createSphere(2, 3, -2, 2);
 
     //wrap sphere in material from local file
     s2.material = fileMat('111.jpg', scene);
     
     //create box with params x, y, z, width, height, ddepth
-    var b1 = createBox(0, -3, 2, 2, 2, 1);
+    var b1 = createBox(0, -2, 2, 2, 2, 1);
 
     //wrap box in material colored with hex code
     b1.material = fileMat('downloaded.jpg', scene);
